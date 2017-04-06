@@ -1,0 +1,1393 @@
+a,abbr,acronym,address,b,bdo,big,blockquote,body,br,button,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,html,i,img,ins,kbd,legend,li,map,object,ol,p,pre,q,samp,small,span,strong,sub,sup,tbody,td,tfoot,th,thead,tr,tt,ul,var {
+font-family:Arial,Helvetica,sans-serif;
+margin:0;
+padding:0;
+}
+
+html {
+overflow-y:scroll;
+}
+
+#main-home {
+overflow:hidden;
+margin:0;
+}
+
+#bg-slider {
+width:1600px;
+overflow:hidden;
+height:380px;
+margin:auto;
+}
+
+#bg-slider .slider-wrap {
+right:0;
+top:0;
+}
+
+#faded {
+width:1600px;
+margin-top:0;
+margin-left:0;
+}
+
+.pagination {
+overflow:hidden;
+top:480px;
+height:35px;
+z-index:9999;
+position:absolute;
+margin-left:500px;
+padding:5px 5px 5px 160px;
+}
+
+.pagination ul {
+overflow:hidden;
+}
+
+.pagination li {
+float:left;
+list-style:none;
+}
+
+
+.pagination a {
+background:url(http://static.abhibus.com/ks/images/gallery_btn.png) right top no-repeat;
+display:block;
+width:24px;
+height:24px;
+margin-right:4px;
+text-indent:-5000px;
+float:left!important;
+position:relative!important;
+}
+
+.pagination a:hover,.current a {
+background:url(http://static.abhibus.com/ks/images/gallery_btn.png) left top no-repeat!important;
+}
+
+#wraper {
+width:1000px;
+margin:auto;
+}
+
+#home-booking {
+width:1000px;
+overflow:hidden;
+z-index:9999;
+position:absolute;
+}
+
+#booking-right {
+float:right;
+width:340px;
+overflow:hidden;
+border:1px solid #A6A5A5;
+margin-top:25px;
+margin-left:170px;
+background:url(http://static.abhibus.com/ks/images/booking-bg.png) top center no-repeat;
+background-color:#fff;
+}
+
+.bookbus {
+width:340px;
+color:#000;
+font-size:14px;
+margin:5px 5px 5px 0;
+padding:5px 0;
+}
+
+.bookbus h1 {
+font-size:26px;
+color:#fb590a;
+margin-top:5px;
+margin-left:20px;
+}
+
+.bookbus label {
+display:block;
+text-align:left;
+padding:5px 0 1px;
+}
+
+.bookbus .select {
+margin-left:35px;
+margin-top:10px;
+}
+
+.bookbus table {
+margin-left:15px;
+margin-top:5px;
+}
+
+.bookbus input[type="radio"] {
+margin:5px 0 5px 30px;
+}
+
+.bookbus .calender input[type="text"] {
+width:290px;
+height:30px;
+background-color:#f1f1f1;
+border-top:solid 1px #9f9f9f;
+color:#6b6b6b;
+background-image:url(http://static.abhibus.com/ks/images/calender.png);
+background-position:260px center;
+background-repeat:no-repeat;
+margin:8px;
+padding:2px;
+}
+
+.bookbus input[type="submit"] {
+background:#fc590a;
+display:block;
+cursor:pointer;
+border-radius:10px;
+color:#fff;
+font-size:16px;
+text-align:center;
+border:none;
+margin:10px 0 0 100px;
+padding:7px 20px;
+}
+
+.bookbus input:hover[type="submit"] {
+background:#fd6d27;
+display:block;
+cursor:pointer;
+border-radius:10px;
+color:#fff;
+font-size:16px;
+text-align:center;
+border:none;
+margin:10px 0 0 100px;
+padding:7px 20px;
+}
+
+#memberarea {
+background:#ededed;
+height:30px;
+border-bottom:1px solid #e1e1e1;
+}
+
+#member {
+width:1140px;
+padding-top:7px;
+margin:auto;
+}
+
+#login {
+float:left;
+width:985px;
+text-align:right;
+overflow:hidden;
+color: #2f2f2f;
+}
+
+#language {
+float:right;
+width:150px;
+text-align:right;
+overflow:hidden;
+}
+
+#header {
+overflow:hidden;
+width:1140px;
+margin:auto;
+}
+
+#header .headertop .headertop-left {
+float:left;
+color:#737373;
+padding-left:22px;
+}
+
+#header .headertop .headertop-right {
+float:right;
+overflow:hidden;
+}
+
+#header .headertop .headertop-right a {
+color:#929292;
+text-decoration:none;
+display:block;
+float:left;
+margin:0;
+}
+
+#header .headertop .headertop-right a.user {
+background:maroon;
+font-size:14px;
+text-align:center;
+text-decoration:none;
+color:#f9f000;
+padding:8px 12px;
+}
+
+#header .headertop .headertop-right a:hover.agent {
+background:#ED0000;
+font-size:14px;
+text-align:center;
+text-decoration:none;
+color:#fff;
+margin-left:1px;
+padding:8px 12px;
+}
+
+#header .headertop .phone {
+background:url(http://static.abhibus.com/ks/images/phoneicon.png) no-repeat 0px 4px ;
+font-size:18px;
+padding-left:42px;
+margin-bottom:5px;
+margin-top:16px;
+height:52px;
+}
+
+.menu-wrap {
+background:#FC590A;
+}
+
+.menu {
+display:block;
+text-align:left;
+font-size:12px;
+color:#413F3F;
+overflow:hidden;
+float:left;
+}
+
+.menu a {
+color:#fff;
+font-size:14px;
+text-decoration:none;
+font-weight:600;
+line-height:36px;
+display:block;
+float:left;
+border-right: solid 1px #df1a28;
+padding:2px 15px 1px;
+}
+
+.menu a.selectedtabcopy {
+    background: url(http://static.abhibus.com/ks/images/arrow-down-yellow.png) top center no-repeat;
+    color: #fff;
+}
+.menu a:hover {
+    background: url(http://static.abhibus.com/ks/images/arrow-down-yellow.png) top center no-repeat;
+    color: #fff;
+}
+
+.menu a:last-child {
+border-right:none;
+}
+
+.menu_header,.menu_title {
+font-family:Arial,Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#006;
+font-weight:700;
+}
+
+.headerLogo {
+text-align:center;
+width:500px;
+height:85px;
+float:left;
+margin-bottom:3px;
+margin-top:3px;
+background:url(http://static.abhibus.com/ks/images/logo.png) no-repeat;
+}
+
+body,td {
+font-family:Arial,Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#000;
+background: #fff;
+}
+
+pre {
+font-family:Arial,Arial,Helvetica,sans-serif;
+font-size:12px;
+color:#23364d;
+}
+
+input,select,textarea {
+font-size:12px;
+font-family:Arial,Arial,Helvetica,sans-serif;
+color:#23364d;
+}
+
+form {
+display:inline;
+}
+
+legend {
+font-weight:700;
+color:#e0f0f0;
+background:#85A6D0;
+font-size:12px;
+padding-left:8px;
+padding-right:8px;
+}
+
+#fotter-bg {
+margin-top:0;
+background:#ededed;
+border-top:solid 1px #fff;
+outline:#e1e1e1 solid 1px;
+}
+
+#footer-bottom {
+background:#fff;
+}
+
+#footer .cont {
+width:1140px;
+overflow:hidden;
+color:#777;
+font-size:13px;
+margin-top:10px;
+margin-bottom:10px;
+text-align:center;
+}
+
+#footer .cont a {
+color:#000;
+text-decoration:none;
+padding:5px 10px;
+}
+
+#footer .cont p {
+padding-left:10px;
+}
+
+#footer .cont a:hover {
+text-decoration:underline;
+}
+
+#footer .cont .left {
+width:500px;
+float:left;
+padding-top:20px;
+text-align:left;
+margin-left:0;
+}
+
+#footer .cont .right {
+width:400px;
+float:right;
+text-align:right;
+margin-right:0;
+}
+
+#footer .cont .right img {
+float:right;
+margin:0;
+}
+
+#footer .cont .right a {
+text-decoration:none;
+padding:2px;
+}
+
+a {
+text-decoration:none;
+color:#535353;
+}
+
+.clear-lin {
+clear:both;
+}
+
+#home-bot {
+border-top:solid 10px #fc590a;
+overflow:hidden;
+}
+.home-bot-first {
+	padding-top:15px;
+	}
+.home-bot-first h2 {
+text-align:left;
+font-family:Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+margin-top:10px;
+font-weight:500;
+color:#fc590a;
+font-size:22px;
+margin-bottom:10px;
+margin-left:20px;
+}
+
+.home-bot-mid h2 {
+text-align:left;
+font-family:Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+font-weight:500;
+color:#fc590a;
+font-size:22px;
+margin-bottom:20px;
+margin-left:20px;
+}
+
+.home-bot-footer {
+width:1140px;
+overflow:hidden;
+padding-top: 10px;
+padding-bottom:30px;
+margin:auto;
+}
+
+.home-bot-footer h2 {
+text-align:left;
+font-family:Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', 'sans serif';
+margin-top:10px;
+font-weight:500;
+color:#fc590a;
+font-size:16px;
+margin-bottom:10px;
+margin-left:20px;
+}
+
+.h-b-left {
+float:left;
+width:300px;
+background:url(http://static.abhibus.com/ks/images/sidebar.png) no-repeat right;
+}
+
+.h-b-mid {
+float:left;
+width:400px;
+background:url(http://static.abhibus.com/ks/images/sidebar.png) no-repeat right;
+}
+
+.h-b-mid ul li {
+background:url(http://static.abhibus.com/ks/images/our-service.png) left center no-repeat;
+padding-left:14px;
+line-height:22px;
+list-style:none;
+width:180px;
+display:inline-block;
+}
+
+.footer-mid {
+float:left;
+width:500px;
+}
+
+.footer-mid ul li {
+background:url(http://static.abhibus.com/ks/images/Routes.png) left center no-repeat;
+padding-left:14px;
+line-height:22px;
+list-style:none;
+width:240px;
+display:inline-block;
+text-decoration:underline !important;
+}
+
+.footer-right-left {
+width:160px;
+float:left;
+}
+.footer-right ul li {
+	text-decoration:underline !important;	
+	}
+.footer-right-right {
+width:160px;
+float:right;
+}
+
+.h-b-events {
+float:right;
+width:350px;
+}
+
+.events {
+float:right;
+background:#ededed;
+width:430px;
+min-height:180px;
+overflow:hidden;
+border:1px solid #D3CECF;
+margin:20px auto;
+padding:10px 10px 0;
+}
+
+.h-b-testimonials {
+float:left;
+width:600px;
+}
+
+.testimonials {
+float:left;
+background:#fff;
+width:680px;
+overflow:hidden;
+border:1px solid #D3CECF;
+min-height:190px;
+margin:20px auto;
+padding:10px 10px 0;
+}
+
+.testimonials .q-left {
+font-size:50px;
+color:#ffa5ab;
+float:left;
+width:60px;
+display:block;
+vertical-align:top;
+line-height:5px;
+font-family:Georgia,"Times New Roman",Times,serif;
+margin-top:10px;
+}
+
+.testimonials .q-mid {
+width:660px;
+float:left;
+color:#555;
+}
+
+.testimonials .q-mid .customer {
+text-align:right;
+padding-top:20px;
+color:#fc590a;
+}
+
+.testimonials .q-mid .customer span {
+color:#666;
+}
+
+.testimonials .q-right {
+font-size:50px;
+color:#ffa5ab;
+float:right;
+width:20px;
+display:block;
+vertical-align:top;
+line-height:30px;
+font-family:Georgia,"Times New Roman",Times,serif;
+}
+
+.newsTitle {
+display:block;
+color:#454545;
+font-size:16px;
+font-weight:400;
+text-align:left;
+margin:30px 0 10px;
+padding:5px 5px 0 0;
+border-top:solid 1px #FF7B2D;
+}
+
+.newsLine {
+color:#555!important;
+font-size:12px;
+}
+.knowmore {
+	float:right;
+	margin-top:10px;
+	}
+.knowmore a {
+	color:#AA0205;
+	}	
+
+.bookbus input[type="text"],.bookbus .trip input[type="text"] {
+width:290px;
+height:30px;
+background-color:#f1f1f1;
+border-top:solid 1px #9f9f9f;
+color:#6b6b6b;
+background-image:url(http://static.abhibus.com/ks/images/input.png);
+background-position:270px center;
+background-repeat:no-repeat;
+margin:8px;
+padding:2px;
+}
+
+#login a,#language a {
+color:#FC590A;
+text-decoration:underline;
+}
+
+#login a:hover,#language a:hover {
+color:#000;
+}
+
+#header .headertop .headertop-right span,.h-b-left .login span,.footer-left .login span {
+color:#737373;
+margin-right:10px;
+font-size:15px;
+display:block;
+
+}
+.footer-left ul li {
+	text-decoration:underline !important;	
+	}
+.menu-right,#footer,.home-bot-first,.home-bot-mid {
+width:1140px;
+overflow:hidden;
+margin:auto;
+}
+
+.h-b-footer,.footer-left {
+float:left;
+width:250px;
+}
+
+.h-b-left .login,.footer-left .login {
+font-size:21px;
+padding-left:50px;
+margin-bottom:5px;
+margin-top:16px;
+height:52px;
+}
+
+.h-b-left ul,.h-b-mid ul,.h-b-right ul,.footer-left ul,.footer-mid ul,.footer-right ul {
+margin-top:2px;
+display:inline-block;
+margin-left:14px;
+}
+
+.h-b-left ul li,.footer-left ul li {
+background:url(http://static.abhibus.com/ks/images/Routes.png) left center no-repeat;
+padding-left:14px;
+line-height:22px;
+list-style:none;
+width:196px;
+display:inline-block;
+}
+
+.h-b-left ul li,.footer-left ul li a:hover {
+color:#FC590A !important;
+}
+.footer-mid ul li a:hover {
+color:#FC590A !important;
+}
+.footer-right ul li a:hover {
+color:#FC590A !important;
+}
+
+.h-b-left ul li a,.h-b-mid ul li a,.h-b-right ul li a,.footer-left ul li a,.footer-mid ul li a,.footer-right ul li a {
+color:#555!important;
+}
+
+.h-b-left table,.footer-left table {
+margin-top:20px;
+}
+
+.h-b-left td,.footer-left td {
+font-size:14px;
+color:#fc590a;
+}
+
+.h-b-right,.footer-right {
+float:right;
+width:390px;
+padding-bottom:10px;
+}
+
+.h-b-right ul li,.footer-right ul li {
+background:url(http://static.abhibus.com/ks/images/Routes.png) left center no-repeat;
+padding-left:14px;
+line-height:22px;
+list-style:none;
+width:180px;
+display:inline-block;
+}
+
+
+/***********************
+****Service page css****
+***********************/
+
+#services {
+	padding-top:10px;
+	}
+.services {
+  padding: 0;
+}
+
+#left-menu-bg {
+
+	/*padding-bottom:20px;*/
+	background-color:#fff !important;
+-webkit-box-shadow: 0 5px 6px -6px #777;
+	   -moz-box-shadow: 0 5px 6px -6px #777;
+	        box-shadow: 0 5px 6px -6px #777;
+	}
+#mail-menu-bg {
+	
+	background-color:#fff !important;
+-webkit-box-shadow: 0 5px 6px -6px #777;
+	   -moz-box-shadow: 0 5px 6px -6px #777;
+	        box-shadow: 0 5px 6px -6px #777;
+	}	
+
+#right-menu-bg {
+	
+	background-color:#fff !important;
+-webkit-box-shadow: 0 5px 6px -6px #777;
+	   -moz-box-shadow: 0 5px 6px -6px #777;
+	        box-shadow: 0 5px 6px -6px #777;
+	color:#404040 !important;
+	}	
+.mid-menu-bg {
+	overflow:hidden;
+	padding-bottom:20px;
+	padding-left:5px;
+	background-color:#fff !important;
+-webkit-box-shadow: 0 5px 6px -6px #777;
+	   -moz-box-shadow: 0 5px 6px -6px #777;
+	        box-shadow: 0 5px 6px -6px #777;
+	border:1px solid #CCC;
+	padding:15px;
+	margin-bottom:20px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size:14px;
+	color:#626262;
+	min-height:600px;
+	}
+.mid-menu-bg p {
+	padding-bottom:10px;
+	text-align:justify;
+	}
+.mid-menu-bg h1 {
+	color:#fc590a;
+	font-size:25px;
+	padding-bottom:10px;
+	}	
+.mid-menu-bg h2 {
+	color:#fc590a;
+	font-size:18px;
+	padding-bottom:10px;
+	padding-top:20px;
+	}
+.mid-menu-bg h3 {
+	color:#404040;
+	font-size:16px;
+	padding-bottom:10px;
+	padding-top:20px;
+	font-weight:bold;
+	}		
+.mid-menu-img img {
+    float: right;
+    margin: 0px 0px 15px 20px;
+	}	
+.mid-menu-bg ul li a{
+	color:#333d52;
+	font-weight:400;
+	}
+.mid-menu-bg p a{
+	color:#fc590a;
+	}
+.mid-menu-bg thead {
+	background:#e1e1e1;
+	border:1px solid #b1b1b1;
+	color:#404040;
+	}	
+	
+.list-group a.lm-arrow{
+	background: url(http://static.abhibus.com/ks/images/icons/down-arrow.png) no-repeat 95% 15px;
+	background-color:#fff;
+	}		
+.get-started {
+  background: none repeat scroll 0 0 #F3F3F3;
+  border-radius: 3px;
+  padding-bottom: 30px;
+  position: relative;
+  margin-bottom: 18px;
+  margin-top: 60px;
+}
+
+.get-started h2 {
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
+
+.request {
+  bottom: -15px;
+  left: 50%;
+  position: absolute;
+  margin-left: -110px;
+}
+
+.request h4 {
+  position: absolute;
+  width: 220px;
+  position:relative;
+}
+
+.request h4 a{
+  background:#c52d2f;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  border-radius: 3px;
+  padding: 5px 15px;
+}
+
+.request h4:after {
+  border-color: #c52d2f transparent transparent;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -18px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 13px;
+  z-index: -99999;
+}
+
+.request h4:before {
+  border-color: #c52d2f transparent transparent;
+  border-style: solid;
+  border-width: 12px;
+  bottom: -18px;
+  content: "";
+  height: 0;
+  left: 13px;
+  position: absolute;
+  z-index: -99999;
+}
+
+.clients-area {
+  padding: 60px;
+}
+
+.clients-comments {
+    background-image: url("http://static.abhibus.com/ks/images/image_bg.png");
+    background-position: center 118px;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+}
+
+.clients-comments img {
+  background:#DDDDDD;
+  border: 1px solid #DDDDDD;
+  height: 182px;
+  padding: 3px;
+  width: 182px;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+.clients-comments h3 {
+  margin-top: 55px;
+  font-weight: 300;
+  padding: 0 40px;
+}
+
+.clients-comments h4 {
+  font-weight: 300;
+  margin-top: 15px;
+}
+
+
+.clients-comments  h4  span {
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.footer {
+  background: none repeat scroll 0 0 #2E2E2E;
+  border-top: 5px solid #C52D2F;
+  height: 50px;
+  margin-top: 110px;
+}
+
+.footer_left {
+  padding: 10px;
+}
+
+.text-left {
+  color: #FFFFFF;
+  font-size: 12px;
+  margin-top: 15px;
+}
+/*=================left navibar begin=========================================*/
+
+.gw-container.gw-main-container .gw-sidebar.gw-sidebar-fixed,
+.gw-container.gw-main-container .gw-sidebar.gw-sidebar-fixed:before { left: auto }
+
+.gw-sidebar {
+ 
+ 
+ 
+  border-width: 0 1px 0 0;
+  background-color: #F2F2F2;
+  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+.gw-sidebar .nano-pane {
+  background: rgba(255, 255, 255, 0);
+  font-size: 15px;
+}
+
+.gw-sidebar .gw-nav-list { 
+	border-right: 1px solid #CCC;
+	border-left: 1px solid #CCC;
+	border-top: 1px solid #CCC;
+
+ }
+
+.gw-sidebar .gw-nav-list li a { padding-left: 12px; }
+
+.gw-nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none
+}
+
+.gw-nav-list>li:first-child { border-top: 0; }
+
+.gw-nav-list>li {
+  display: block;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border-top: 1px solid #fcfcfc;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  text-decoration: none;
+ 
+}
+ @-webkit-keyframes 
+arrow-slide {  0% {
+}
+ 100% {
+-webkit-transform:rotate(225deg);
+z-index:3
+}
+}
+ @-webkit-keyframes 
+arrow-slide1 {  0% {
+}
+ 100% {
+-webkit-transform:rotate(225deg);
+z-index:3
+}
+}
+
+.gw-nav-list>li.arrow-down:after {
+  content: '';
+  width: 10px;
+  height:10px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  border-top: 1px solid #404040;
+  border-left: 1px solid #404040;
+  -webkit-transform: rotate(45deg);
+  -webkit-animation: arrow-slide .5s 0s ease both;
+}
+
+.gw-nav-list>li.init-arrow-down:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  border-right: 1px solid #404040;
+  border-bottom: 1px solid #404040;
+  -webkit-transform: rotate(45deg);
+}
+
+.gw-nav-list>li.arrow-up:after {
+  content: '';
+  width:10px;
+  height: 10px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  border-right: 1px solid #404040;
+  border-bottom: 1px solid #404040;
+  -webkit-transform: rotate(45deg);
+  -webkit-animation: arrow-slide1 .5s 0s ease both;
+}
+
+.gw-nav-list>li.init-arrow-up:after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  border-top: 1px solid #bababa;
+  border-left: 1px solid #bababa;
+  -webkit-transform: rotate(45deg);
+}
+
+.gw-nav-list>li.active { background-color: #fff; }
+
+.gw-nav-list>li>a {
+  display: block;
+  height: 48px;
+  line-height: 46px;
+  padding: 0 16px 0 7px;
+  background-color: #fff;
+  color: #585858;
+  text-shadow: none!important;
+  font-size: 14px;
+  text-decoration: none;
+
+}
+
+.gw-open > a { outline: 0; }
+
+.gw-nav-list>li.gw-open { border-bottom-color: #e5e5e5 }
+
+.gw-nav-list>li.gw-open>a {
+  background-color: #fafafa;
+  color: #1963aa
+}
+
+.gw-nav-list .gw-open>a,
+.gw-nav-list .gw-open>a:hover,
+.gw-nav-list .gw-open>a:focus { background-color: #fafafa }
+
+.gw-nav .gw-open > a,
+.gw-nav .gw-open > a:hover,
+.gw-nav .gw-open > a:focus {
+  background-color: #eee;
+  border-color: #428bca;
+}
+
+.gw-nav-list>li.active>a,
+.gw-nav-list>li.active>a:hover,
+.gw-nav-list>li.active>a:focus,
+.gw-nav-list>li.active>a:active {
+background-color: #fc590a;
+color: #fff;
+font-weight: bold;
+font-size: 14px;}
+
+.gw-nav-list>li>a,
+.gw-nav-list .gw-nav-header { margin: 0 }
+.gw-nav-list>li.active>a>[class*="icon-"] {
+ font-weight: normal
+}
+
+.gw-nav-list>li.active>a:hover:before { display: none }
+
+.gw-nav-list>li.active:before {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  right: -2px;
+  top: -1px;
+  bottom: 0;
+  z-index: 1;
+  border: 2px solid #dd4814;
+  border-width: 0 2px 0 0
+}
+
+.gw-nav-list li.gw-open>a:after { display: none }
+
+.gw-nav-list>li a>.gw-arrow {
+  display: inline-block;
+  width: 14px!important;
+  height: 14px;
+  line-height: 14px;
+  text-shadow: none;
+  font-size: 38px;
+  position: absolute;
+  right: 11px;
+  top: 11px;
+  padding: 0;
+  color:#404040 !important;
+}
+
+.gw-nav-list>li a:hover>.gw-arrow,
+.gw-nav-list>li.active>a>.gw-arrow,
+.gw-nav-list>li.gw-open>a>.gw-arrow { color: #404040; }
+
+.gw-nav-list>li>a>[class*="icon-"]:first-child {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+  margin-right: 2px
+}
+
+.gw-nav-list>li.active .gw-submenu {
+ display: block -webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,0.13);
+  -moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,0.13);
+  box-shadow: inset 0px 0px 5px rgba(0,0,0,0.13);
+}
+
+.gw-nav-list>li .gw-submenu {
+  font-size: 13px;
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #fff;
+  border-top: 1px solid #e5e5e5;
+}
+
+.gw-nav-list>li .gw-submenu>li {
+  margin-left: 0;
+  position: relative
+  
+}
+
+.gw-nav-list>li .gw-submenu>li>a {
+  display: block;
+  position: relative;
+  color: #616161;
+  padding: 7px 0 9px 30px;
+  margin: 0;
+  border-top: 1px dotted #e4e4e4;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.gw-nav-list>li .gw-submenu>li>a:focus { text-decoration: none }
+
+.gw-nav-list>li .gw-submenu>li>a:hover {
+  text-decoration: none;
+  color: #dd4814;
+  background-color: rgba(25,25,50,0.1);
+}
+
+.gw-nav-list>li .gw-submenu>li.active:after {
+  display: inline-block;
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  bottom: 0;
+  z-index: 1;
+  border: 2px solid #dd4814;
+}
+
+.gw-nav-list>li .gw-submenu>li.active>a { color: #dd4814; background: #fdc7ad;}
+
+.gw-nav-list>li .gw-submenu>li a>[class*="icon-"]:first-child {
+  display: none;
+  font-size: 12px;
+  font-weight: normal;
+  width: 18px;
+  height: auto;
+  line-height: 12px;
+  text-align: center;
+  position: absolute;
+  left: 10px;
+  top: 11px;
+  z-index: 1;
+  background-color: #FFF;
+ 
+  
+}
+
+.gw-nav-list>li .gw-submenu>li.active>a>[class*="icon-"]:first-child,
+.gw-nav-list>li .gw-submenu>li:hover>a>[class*="icon-"]:first-child { display: inline-block }
+
+.gw-nav-list>li .gw-submenu>li.active>a>[class*="icon-"]:first-child { color: #f00}
+
+.gw-nav-list>li>.gw-submenu>li:first-child>a { border-top: 0px; }
+
+.gw-nav-list li .gw-submenu { overflow: hidden }
+
+.gw-nav-list li.active.gw-open>.gw-submenu>li.active.gw-open>a.dropdown-toggle:after { display: none }
+
+.gw-nav-list li.active>.gw-submenu>li.active>a:after { display: none }
+
+.gw-nav-list li.active.gw-open>.gw-submenu>li.active>a:after { display: block }
+
+.gw-nav-tabs li[class*=" icon-"],
+.nav-tabs li[class^="icon-"] {
+  width: 2.25em;
+  display: inline-block;
+  text-align: center
+}
+.gw-menu-text img{ margin-right:5px;}
+/*=================left navibar end=========================================*/
+
+/*social icons*/
+.social-icons a {
+	display:inline-block;
+	margin-top:20px;
+	}
+.social-icons ul li { 
+	padding: 0;
+    margin: 0;
+    list-style: none;
+	display: inline-block;
+     }
+.social-icons img{
+	background:url(http://static.abhibus.com/ks/images/facebook.png) no-repeat 0 0px;
+	}
+.facebook {
+	padding-left:5px;
+	width:32px;
+	height:32px;
+	background:url(http://static.abhibus.com/ks/images/facebook.png) no-repeat 0 0px;
+	}
+.facebook:hover {
+	padding-left:5px;
+	width:32px;
+	height:32px;
+	background:url(http://static.abhibus.com/ks/images/facebook-hover.png) no-repeat 0 0px;
+	}	
+.social-icons img{
+	background:url(http://static.abhibus.com/ks/images/youtube.png) no-repeat 0 0px;
+	}
+.youtube {
+	margin-left:5px;
+	padding-left:10px;
+	width:32px;
+	height:32px;
+	background:url(http://static.abhibus.com/ks/images/youtube.png) no-repeat 0 0px;
+	}
+.youtube:hover {
+	padding-left:10px;
+	width:32px;
+	height:32px;
+	background:url(http://static.abhibus.com/ks/images/youtube-hover.png) no-repeat 0 0px;
+	}	
+		
+.twitter {
+	margin-left:5px;
+	padding-left:5px;
+	width:32px;
+	height:32px;
+	background:url(http://static.abhibus.com/ks/images/twitter.png) no-repeat 0 0px;
+	}
+.twitter:hover {
+	padding-left:5px;
+	width:32px;
+	height:32px;
+	background:url(http://static.abhibus.com/ks/images/twitter-hover.png) no-repeat 0 0px;
+	}	
+.header-top-right {
+	padding-top:5px;
+	padding-right:5px;
+	float:right;
+	width:160px;
+	text-align:left;
+	}
+/* Corporate Offices */
+
+.corp-offices {
+	padding:10px;
+	text-align:center;
+	font-size:13px;
+	}	
+.corp-offices p {
+	padding-top:10px;
+	}
+.ksrtc-list {
+	margin-left:20px;
+	}	
+.ksrtc-list ul {
+	list-style-image: url(http://static.abhibus.com/ks/images/arrow.png) ;
+	}	
+.ksrtc-list li {
+	padding-bottom:5px;
+	text-align:justify;
+	}	
+.ksrtc-list span {
+	color:#fc590a;
+	font-size:9px;
+	}		
+
+.report-tabs-main {
+	background:#f1f1f1;
+	border-radius:5px;
+	}
+.flybus-services {
+	background:#fdc7ad;
+	border-radius:5px;
+	}	
+.report-tabs {
+	background:#fff;
+	border:1px solid #e1e1e1;
+	padding-top:20px;
+	padding-bottom:20px;
+	}
+.report-tabs h3{
+	padding-top:10px;
+	padding-left:20px;
+	}
+.servicebus-tabs {
+	padding:10px;
+	background:#fff;
+	border:1px solid #e1e1e1;
+	padding-top:20px;
+	padding-bottom:20px;
+	}	
+.servicebus-tabs h2{
+	padding-top:10px;
+	}	
+
+.report-tabs ul {
+	padding-left:40px;
+	list-style-image: url(http://static.abhibus.com/ks/images/img-pdf.png);
+	}	
+.report-tabs ul li {
+	padding:5px;
+	}
+.report-tabs ul li a{
+	color:#404040;
+	}
+.report-tabs ul li a:hover{
+	color:#fc590a;
+	}			
+.report-tabs a{
+	color:#fc590a;
+	}	
+.fin-data-table table td {
+	padding:10px;
+	width:400px;	
+	font-size:14px;
+	}
+.fin-data-table table th {
+	color:#282828;
+	}
+
+.fin-data-table table {
+	background:#f1f1f1;
+		}	
+.fin-data-table table.table-head td{
+	padding:10px;
+	width:410px;
+	text-transform:uppercase;
+	color:#fc590a;
+	font-weight:bold;
+	}		
+.book-button {
+	background:#fc590a !important;
+	border:none;
+	}	
+.flybus-booking {
+	float:left;
+	overflow:hidden;
+	}
+.flybus-img {
+	padding-bottom:20px;
+	}	
+.ksrtc-sublists ul{
+	padding-left:20px;
+	padding-top:10px;
+	}	
+.ksrtc-ol-list {
+	padding:10px;
+	padding-left:20px;
+	}	
+.ksrtc-ol-list ol li a{
+	color:#fc590a;
+	}	
+.ksrtc-ol-list ol li{
+	padding-bottom:5px;
+	}	
+.last-update p {
+	text-align:center;
+	color:#a1a1a1;
+	padding-top:10px;
+	}
