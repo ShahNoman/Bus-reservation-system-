@@ -1,2 +1,2 @@
-# projects http://wholesale.aladdinapps.com/
+# projects http://project/index.php/
 Fyp
