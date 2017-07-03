@@ -20,7 +20,7 @@ if(HOST=='localhost')
 	define(STAFF_PATH,$_SERVER['DOCUMENT_ROOT'].'/project/staff/');
 }
 
-
+// commit
 include('admin/classes/mysqli.class.php');
 include('admin/classes/login.class.php');
 include('admin/classes/general.class.php');
